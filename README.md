@@ -46,3 +46,6 @@ asciinema play docs/terminal-demo.cast
 The transcript is in [`docs/terminal-demo.txt`](docs/terminal-demo.txt). It uses the placeholder issue `DEMO-123` and contains no private Jira data.
 
 The recording was generated locally with `scripts/record-demo.sh`; it is a scripted, output-only demonstration and does not contact Jira.
+
+
+The extension smoke-test transcript is available at [`docs/actual-extension-transcript.txt`](docs/actual-extension-transcript.txt).

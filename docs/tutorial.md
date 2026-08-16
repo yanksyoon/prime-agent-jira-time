@@ -214,3 +214,8 @@ The cast was recorded with:
 ```bash
 asciinema rec --command ./scripts/record-demo.sh docs/terminal-demo.cast
 ```
+
+
+## Local smoke-test comparison
+
+The extension was run locally in Prime Agent and `/jira-time doctor` produced the configured-MCP message shown in [`actual-extension-transcript.txt`](actual-extension-transcript.txt). The terminal cast is a deterministic sanitized walkthrough, not a recording of a real Jira account.

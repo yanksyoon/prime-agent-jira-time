@@ -1,0 +1,7 @@
+Actual local extension smoke test (sanitized)
+
+Command: /jira-time doctor
+Result:
+Atlassian MCP is configured. Ask the agent to verify Jira search, create-issue, and add-worklog tools; authentication can be repaired with /mcp login atlassian.
+
+No extension-load errors were observed after installing the helper under the extension directory as a subdirectory.

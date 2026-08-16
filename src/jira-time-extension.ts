@@ -4,7 +4,7 @@ import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import { homedir } from "node:os";
 import { join } from "node:path";
 import { randomUUID } from "node:crypto";
-import { summarizeTiming } from "./adapter.js";
+import { summarizeTiming } from "./adapter.ts";
 
 const root = join(homedir(), ".prime", "agent", "state", "jira-time");
 const file = join(root, "sessions.json");
