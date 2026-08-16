@@ -32,10 +32,12 @@ See [`docs/tutorial.md`](docs/tutorial.md) for the complete usage guide, includi
 
 ## Terminal video demonstration
 
-A sanitized terminal recording is available at [`docs/terminal-demo.cast`](docs/terminal-demo.cast). Replay it locally with:
+A sanitized terminal recording captured with `asciinema rec` is available at [`docs/terminal-demo.cast`](docs/terminal-demo.cast). Replay it locally with:
 
 ```bash
 asciinema play docs/terminal-demo.cast
 ```
 
 The transcript is in [`docs/terminal-demo.txt`](docs/terminal-demo.txt). It uses the placeholder issue `DEMO-123` and contains no private Jira data.
+
+The recording was generated locally with `scripts/record-demo.sh`; it is a scripted, output-only demonstration and does not contact Jira.

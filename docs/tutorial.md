@@ -196,10 +196,16 @@ Then retry:
 
 ## Terminal video demonstration
 
-Replay the sanitized walkthrough locally with [asciinema](https://asciinema.org/):
+Replay the sanitized walkthrough recorded locally with [asciinema](https://asciinema.org/):
 
 ```bash
 asciinema play docs/terminal-demo.cast
 ```
 
 The recording demonstrates the complete flow with the placeholder issue `DEMO-123`. See [`terminal-demo.txt`](terminal-demo.txt) for an accessible transcript. It is intentionally output-only and does not contact Jira.
+
+The cast was recorded with:
+
+```bash
+asciinema rec --command ./scripts/record-demo.sh docs/terminal-demo.cast
+```
