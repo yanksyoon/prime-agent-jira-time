@@ -23,3 +23,8 @@ Installation preflight is intentionally explicit: run `/jira-time doctor`; it ch
 ## External work and adapter
 
 The `jira_time_log_external` model tool accepts `issue`, `duration_minutes`, `description`, and optional `started_at` for work performed outside Prime Agent. It writes a private pending ledger entry; `/jira-time pending` lists entries and `/jira-time log ENTRY_ID` presents the normal final confirmation before delegating the worklog to Atlassian MCP. `/jira-time report` joins the Jira ledger with session-duration rows from the existing `prime-agent-timing` logs without adding the two totals together.
+
+
+## Tutorial
+
+See [`docs/tutorial.md`](docs/tutorial.md) for the complete usage guide, including session tracking, issue discovery and creation, reports, external work logging, and recovery.
