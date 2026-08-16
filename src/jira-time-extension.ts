@@ -59,7 +59,7 @@ export default function jiraTime(pi: ExtensionAPI) {
       const external: Row = { id: randomUUID(), source: "external", issue: params.issue, description: params.description, started: params.started_at ?? new Date().toISOString(), last: new Date().toISOString(), activeMs: params.duration_minutes * 60000, status: "local_pending" };
       const rows = await load(); rows.push(external); await save(rows);
       const ok = await ctx.ui.confirm("External Jira worklog", `Keep ${Math.round(params.duration_minutes)} minutes for ${params.issue ?? "an unassigned issue"} locally?`);
-      if (!ok) { external.status = "discarded"; await save(rows); return { content: [{ type: "text", text: "External time entry discarded." }] }; }
+      if (!ok) { external.status = "discarded"; await save(rows); return { content: [{ type: "text", text: "External time entry discarded." }], details: {} }; }
       return { content: [{ type: "text", text: `Stored external time entry ${external.id} locally. Use /jira-time log ${external.id} after confirming the Jira issue.` }], details: external };
     },
   });
