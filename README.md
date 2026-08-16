@@ -28,3 +28,14 @@ The `jira_time_log_external` model tool accepts `issue`, `duration_minutes`, `de
 ## Tutorial
 
 See [`docs/tutorial.md`](docs/tutorial.md) for the complete usage guide, including session tracking, issue discovery and creation, reports, external work logging, and recovery.
+
+
+## Terminal video demonstration
+
+A sanitized terminal recording is available at [`docs/terminal-demo.cast`](docs/terminal-demo.cast). Replay it locally with:
+
+```bash
+asciinema play docs/terminal-demo.cast
+```
+
+The transcript is in [`docs/terminal-demo.txt`](docs/terminal-demo.txt). It uses the placeholder issue `DEMO-123` and contains no private Jira data.

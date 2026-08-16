@@ -1,0 +1,11 @@
+# Terminal demonstration transcript
+
+This is a sanitized demonstration using the placeholder Jira issue `DEMO-123`. It does not contain real Jira data.
+
+Replay the asciinema recording with:
+
+```bash
+asciinema play docs/terminal-demo.cast
+```
+
+The recording demonstrates session opt-in, Atlassian MCP preflight, issue association, progress reports, final worklog confirmation, and Jira submission.

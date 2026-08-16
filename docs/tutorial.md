@@ -192,3 +192,14 @@ Then retry:
 - Jira credentials remain managed by Atlassian MCP.
 - Timing arithmetic and local reports do not require model calls.
 - Jira search, issue creation, and worklog submission happen only when requested or confirmed.
+
+
+## Terminal video demonstration
+
+Replay the sanitized walkthrough locally with [asciinema](https://asciinema.org/):
+
+```bash
+asciinema play docs/terminal-demo.cast
+```
+
+The recording demonstrates the complete flow with the placeholder issue `DEMO-123`. See [`terminal-demo.txt`](terminal-demo.txt) for an accessible transcript. It is intentionally output-only and does not contact Jira.
