@@ -4,7 +4,7 @@ This tutorial shows how to opt into Jira time tracking, inspect local progress, 
 
 ## 1. Install and verify
 
-Install the extension package or use the built-in Prime Agent integration. The existing Atlassian MCP server is required for Jira search, issue creation, and worklog submission.
+Install the extension package. Jira search, issue creation, and worklog submission require the existing Atlassian MCP server.
 
 ```text
 /mcp login atlassian
@@ -18,7 +18,7 @@ The extension never stores Jira credentials.
 
 ## 2. Start a tracked session
 
-At startup and after `/new`, Prime Agent shows a native prompt:
+At startup and after `/new`, Prime Agent shows a prompt:
 
 ```text
 Track this session with a Jira story or ticket?
