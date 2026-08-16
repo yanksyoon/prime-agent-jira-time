@@ -1,0 +1,8 @@
+{
+  "name": "@primeintellect/prime-agent-jira-time",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "pi": {"extensions": ["./src/jira-time-extension.ts"]},
+  "dependencies": {"@earendil-works/pi-coding-agent": "^0.7.2", "typebox": "^0.34.0"}
+}
