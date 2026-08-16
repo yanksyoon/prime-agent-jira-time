@@ -9,7 +9,7 @@
     ]
   },
   "dependencies": {
-    "typebox": "^0.34.0"
+    "typebox": "^1.3.9"
   },
   "scripts": {
     "check": "tsc --noEmit"
