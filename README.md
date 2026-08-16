@@ -19,3 +19,7 @@ When an existing-issue suggestion is rejected, the flow explicitly offers creati
 `/home/ubuntu/prime-agent-timing` is a separate lifecycle/tool timing extension. Keep both if you need detailed tool-duration analytics, but do not sum its session duration with this extension's active duration: that double-counts work. The recommended integration is to let this extension own opt-in Jira sessions and worklogs, while `prime-agent-timing` remains the analytics source. A future adapter can join records on the native Prime Agent session ID and Jira issue key.
 
 Installation preflight is intentionally explicit: run `/jira-time doctor`; it checks the local Atlassian MCP configuration and reports the required authentication/tool verification steps.
+
+## External work and adapter
+
+The `jira_time_log_external` model tool accepts `issue`, `duration_minutes`, `description`, and optional `started_at` for work performed outside Prime Agent. It writes a private pending ledger entry; `/jira-time pending` lists entries and `/jira-time log ENTRY_ID` presents the normal final confirmation before delegating the worklog to Atlassian MCP. `/jira-time report` joins the Jira ledger with session-duration rows from the existing `prime-agent-timing` logs without adding the two totals together.
