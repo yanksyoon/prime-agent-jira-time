@@ -196,6 +196,11 @@ Then retry:
 
 ## Terminal video demonstration
 
+![Jira time tracking terminal demonstration](../assets/terminal-demo.gif)
+
+You can also download the [MP4 video](../assets/terminal-demo.mp4) or replay the original [asciinema recording](terminal-demo.cast).
+
+
 Replay the sanitized walkthrough recorded locally with [asciinema](https://asciinema.org/):
 
 ```bash

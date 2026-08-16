@@ -32,6 +32,11 @@ See [`docs/tutorial.md`](docs/tutorial.md) for the complete usage guide, includi
 
 ## Terminal video demonstration
 
+![Jira time tracking terminal demonstration](assets/terminal-demo.gif)
+
+An MP4 version is available at [`assets/terminal-demo.mp4`](assets/terminal-demo.mp4). The asciinema source recording remains available at [`docs/terminal-demo.cast`](docs/terminal-demo.cast).
+
+
 A sanitized terminal recording captured with `asciinema rec` is available at [`docs/terminal-demo.cast`](docs/terminal-demo.cast). Replay it locally with:
 
 ```bash
